@@ -10,7 +10,7 @@ plugins {
 }
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion kotlin_version
     buildToolsVersion "30.0.3"
 
     defaultConfig {
@@ -19,6 +19,7 @@ android {
         targetSdkVersion 32
         versionCode 14
         versionName "1.0.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     compileOptions {
@@ -47,6 +48,19 @@ android {
 }
 
 dependencies {
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
+    androidTestImplementation 'io.qameta.allure:allure-kotlin-android:2.4.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    androidTestImplementation 'org.hamcrest:hamcrest-library:2.2'
+
+
     def retrofit_version = "2.9.0"
     def retrofit_gson_version = "2.9.0"
     def okhttp_logging_version = "4.9.2"
