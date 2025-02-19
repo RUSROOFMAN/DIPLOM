@@ -10,7 +10,7 @@
 -  [**План тестирования**](https://github.com/RUSROOFMAN/DIPLOM/blob/main/docs/Plan.md)
 -  [**Чек-лист проекта с отметками о пройденых и непройденых тестах**](https://github.com/RUSROOFMAN/DIPLOM/blob/main/docs/Cases.xlsx)
 -  [**Тест-кейсы**](https://github.com/RUSROOFMAN/DIPLOM/blob/main/docs/Cases.xlsx)
--  [**Результат тестирования**]()
+-  [**Результат тестирования**](https://github.com/RUSROOFMAN/DIPLOM/blob/main/docs/Result.md)
   
 ### Процедура запуска авто-тестов:
 1. [Склонировать](https://github.com/RUSROOFMAN/DIPLOM) проект
